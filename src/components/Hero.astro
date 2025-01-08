@@ -29,18 +29,18 @@ import { Icon } from "astro-icon/components";
         alt="logo"
         width="150px"
       />
-      <!--<marquee
+      <marquee
         scrollamount="1"
         scrolldelay="20"
         truespeed
+        onclick="window.location.href = '/in-review';"
         class="badge notice-mobile"
-        style="font-size: 18px; text-align: left; background-color: #e73434; border: 1px solid #fe3636b9; color: white; margin: 10px 0px;padding: 15px;font-weight: 500; white-space: nowrap; overflow: hidden; cursor:pointer; text-overflow: ellipsis; line-height: 25px;"
+        style="font-size: 18px; text-align: left; background: linear-gradient(45deg, rgb(94, 192, 66), rgb(51, 135, 213)); color: white; margin: 10px 0px;padding: 15px;font-weight: 500; white-space: nowrap; overflow: hidden; cursor:pointer; text-overflow: ellipsis; line-height: 25px;"
         ><Icon
-          name="lucide:circle-alert"
+          name="lucide:arrow-up-right"
           style="margin-right:8px; margin-bottom:3px;"
-        /> WiiLink Account creation is disabled while we sort out some issues. Sorry
-        for the inconveniece!</marquee
-      >-->
+        /> Check out our 2024 Year in Review by clicking this banner!</marquee
+      >
     </div>
     <h2 id="tagline" style="width:auto; margin-top:18px; font-weight:700;"></h2>
     <p style="font-size:20px; opacity:0.7;">
@@ -454,9 +454,9 @@ import { Icon } from "astro-icon/components";
       document.getElementById("downloadPrompt").textContent;
 
     const osIcons = {
-      MacOS: "fa-apple",
-      Windows: "fa-microsoft",
-      Linux: "fa-linux"
+      MacOS: "apple",
+      Windows: "microsoft",
+      Linux: "linux"
     };
     const os = osdetect();
     const downloadBtn = document.getElementById("download-btn");
@@ -486,11 +486,10 @@ import { Icon } from "astro-icon/components";
         }
       });
     }
-    const icon = osIcons[os] || "fa-download";
+    const icon = osIcons[os] || "download";
     const osName =
       os === "Unknown OS" ? downloadPrompt : `${downloadFor} ${os}`;
-    const iconClass = os === "Unknown OS" ? "fa" : "fa-brands";
-    downloadBtn.innerHTML = `<i class='${iconClass} ${icon}' style='font-size:20px; margin-right:5px;'></i> ${osName}`;
+    downloadBtn.innerHTML = `<span class='${icon}'></span> ${osName}`;
   });
 </script>
 

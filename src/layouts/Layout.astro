@@ -136,8 +136,8 @@ const { title, description, image } = Astro.props;
   }
 
   @font-face {
-  font-family: "FontAwesome";
-  src: url('/public/fonts/fontawesome.ttf');
+    font-family: "FontAwesome";
+    src: url("/fonts/fontawesome.ttf");
   }
   .no-animation,
   .no-animation *,
@@ -386,7 +386,18 @@ const { title, description, image } = Astro.props;
   }
 
   .toc-item::marker {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
     font-size: 18px;
     font-weight: 800;
   }
@@ -803,5 +814,230 @@ const { title, description, image } = Astro.props;
     .download {
       display: none;
     }
+  }
+
+  .bomb {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -3px;
+    background-color: currentColor;
+    --svg: url("/icons/bomb.svg");
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  .circle-check {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -3px;
+    background-color: currentColor;
+    --svg: url("/icons/circle-check.svg");
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  .circle-help {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -3px;
+    background-color: currentColor;
+    --svg: url("/icons/circle-help.svg");
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  .hard-hat {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -3px;
+    background-color: currentColor;
+    --svg: url("/icons/hard-hat.svg");
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+  .git-branch {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/git-branch.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .calendar-days {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/calendar-days.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .star {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/star.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .heart {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/heart.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .rocket {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/rocket.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .eye {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -3px;
+   background-color: currentColor;
+   --svg: url('/icons/eye.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .github {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -5px;
+   background-color: currentColor;
+   --svg: url('/icons/github.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .linux {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -5px;
+   background-color: currentColor;
+   --svg: url('/icons/linux.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .microsoft {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -5px;
+   background-color: currentColor;
+   --svg: url('/icons/microsoft.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .apple {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -5px;
+   background-color: currentColor;
+   --svg: url('/icons/apple.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
+  }
+
+  .download {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   margin-bottom: -5px;
+   background-color: currentColor;
+   --svg: url('/icons/download.svg');
+   -webkit-mask-image: var(--svg);
+   mask-image: var(--svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+   -webkit-mask-size: 100% 100%;
+   mask-size: 100% 100%;
   }
 </style>
