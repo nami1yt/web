@@ -59,6 +59,11 @@
       "slogan": "Herätä Wii-konsolisi henkiin ja kokeile uusittuja kanavia.",
       "install": "Asenna nyt!"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
       "title": "Tervetuloa <0>WiiLink</0>:iin!",
       "subtitle": "Epävirallinen, yhteisön kehittämä homebrew-projekti, jonka tarkoituksena on entisöidä, kääntää ja parantaa pois käytöstä otettuja WiiConnect24 kanavia ja palveluita, mukaan lukien kanavia joita ei julkaistu kaikilla alueilla."

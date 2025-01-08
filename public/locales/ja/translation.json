@@ -83,6 +83,11 @@
       "slogan": "Wiiを復活させ新しいチャンネルを使ってみよう。",
       "install": "インストール!"
     },
+    "account": {
+      "title": "取る貴WiiLinkアカウント!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "インストール!"
+    },
     "services": {
       "title": "<0>WiiLink</0>にようこそ!",
       "subtitle": "過去は日本で使えなかったチャンネルを含めてサービス終了したWiiConnect24サービスを復刻、翻訳、拡張する非公式のプロジェクト。"

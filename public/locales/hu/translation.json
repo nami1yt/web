@@ -83,6 +83,11 @@
         "slogan": "Keltsd újra életre a Wiid és próbálj ki új csatornákat!",
         "install": "Telepítsd!"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
         "title": "Üdvözöl a <0>WiiLink</0>!",
         "subtitle": "Egy nemhivatalos közösségi projekt a néhai WiiConnect24-csatornák és szolgáltatások visszaállítására, lefordítására, korszerűsítésére és régiófüggetlenné tételére."

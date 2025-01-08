@@ -83,6 +83,11 @@
         "slogan": "Reviva o seu Wii e experimente novos canais.",
         "install": "Instale!"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
         "title": "Boas-vindas ao <0>WiiLink</0>!",
         "subtitle": "Um projeto homebrew da comunidade dedicado à restauração, tradução e melhoramento dos inativos canais e serviços do WiiConnect24, incluindo aqueles que não estavam disponíveis em todas as regiões."

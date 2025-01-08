@@ -83,6 +83,11 @@
         "slogan": "Rebalyéd via a voutra Wii et èsseyéd de novèles chênes.",
         "install": "Enstalar !"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
         "title": "Benvegnua sur <0>WiiLink</0> !",
         "subtitle": "Un projèt homebrew comunôtèro nan oficièl dèdiê a la rèstoracion, a la traduccion et a la mèlioracion des chênes et sèrvicios WiiConnect24, dês ora abandonâs, y comprês celos qu'érant pas disponiblos dens totes les règions."

@@ -59,6 +59,11 @@
       "slogan": "Si te gusta todo esto, ¿Por qué no unirte a nuestra comunidad?",
       "install": "¡Instalar ahora!"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
       "title": "Bienvenido a <0>WiiLink</0>!",
       "subtitle": "Un proyecto comunitario para la Wii que revive y mejora los canales descontinuados de WiiConnect24, incluyendo aquellos solo lanzados en Japón."

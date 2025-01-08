@@ -83,6 +83,11 @@
         "slogan": "Redonnez vie à votre Wii et essayez de nouvelles chaînes.",
         "install": "Installer !"
     },
+    "account": {
+      "get": "Get your WiiLink Account!",
+      "about": "Everything's more fun with a WiiLink Account, get access to all our services and personalized data by creating one now!",
+      "create": "Access your Account"
+    },
     "services": {
         "title": "Bienvenue sur <0>WiiLink</0> !",
         "subtitle": "Un projet homebrew communautaire non officiel dédié à la restauration, à la traduction et à l'amélioration des chaînes et services WiiConnect24, désormais abandonnés, y compris ceux qui n'étaient pas disponibles dans toutes les régions."
