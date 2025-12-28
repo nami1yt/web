@@ -20,7 +20,7 @@
         "isArea": "International",
         "status": "English Release",
         "icon": "news_icon.webp",
-        "todo": "<span class='circle-check'></span> The service is working properly!</br></br>However, it is only available in English at present.",
+        "todo": "<span class='circle-check'></span> The service is working properly!",
         "completed": "100"
       },
       {
